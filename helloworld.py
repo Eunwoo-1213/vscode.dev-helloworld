@@ -1,10 +1,12 @@
 #20231552 이은우
+# if
 grade = float(input('1학기 평균 평점은?'))  
 if 3.8 <=grade:
     print('축하합니다! 장학금 지급 대상자입니다.')
 print('당신의 1학기 평균 평점 %.2f이다.' %(grade))
 
 #20231552 이은우
+# if else
 n = int(input('정수 입력 >>'))
 if n%2 ==0:
     print('%d은 짝수다.' % n)
@@ -26,4 +28,7 @@ else:
 
     eval("java * 3")
     eval('"java" * 3')
+
+    28 // 3, 28 % 3
+    divmod(28,3)
 
